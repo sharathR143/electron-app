@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        width: 70%;
+        flex-wrap: wrap;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 2px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <script src="./services/home.js"></script>
+  </head>
+
+  <body>
+    <h1>EXCEL FILES</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody id="filelist-body"></tbody>
+      <tr>
+        <td>1</td>
+        <td><a href="./component/file.html">O24-A0_PQE_HDR_reg_man</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><a href="#">O24-A0_PQE_HDR_reg_man</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><a href="#">O24-A0_PQE_IPP_reg_man</a></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><a href="#">O24-A0_PQE_IPP_reg_man</a></td>
+      </tr>
+    </table>
+  </body>
+  <!-- <script type="module" src="./services/home.js"></script> -->
+  <!-- <script type="module">
+    const home = require("./services/home.js");
+  </script> -->
+</html>
